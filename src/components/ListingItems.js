@@ -13,6 +13,7 @@ export default function ListingItems(data) {
         />
       </div>
       <div className='listing-info'>
+        
         <table>
           <tr>
             <th>
