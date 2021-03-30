@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@500&display=swap');
+
+.description-container {
+  width: 30%;
+}
+
+.main-offer-container img {
+  border-radius: 5px;
+}
+.draw-border {
+  box-shadow: inset 0 0 0 4px #58afd1;
+  color: #58afd1;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+.draw-border::before,
+.draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+.draw-border:hover {
+  color: #746e5d;
+}
+.draw-border:hover::before,
+.draw-border:hover::after {
+  border-color: #5e5741;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+.main-offer-container .btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  width: auto;
+  position: relative;
+  top: 20px;
+  position: relative;
+  left: -30px;
+}
+.main-offer-container .btn:focus {
+  outline: 2px dotted #55d7dc;
+}
+.offer-heading {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 35px;
+  font-weight: 800;
+}
+.offer-discription {
+  font-size: 20px;
+  font-weight: 100;
+}
+@media (min-width: 803px) and (max-width: 1120px) {
+  .offer-image img {
+    min-width: 50px;
+    max-height: 300px;
+    position: relative;
+    left: 30px;
+  }
+}

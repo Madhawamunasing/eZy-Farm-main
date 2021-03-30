@@ -1,0 +1,21 @@
+.vegetable-main-container {
+  position: relative;
+  top: 150px;
+  left: 100px;
+  width: 80%;
+  background-color: rgb(245, 235, 235);
+}
+.item-display {
+  width: 15rem;
+  margin: 10px;
+}
+.footer {
+  position: relative;
+  top: 200px;
+}
+@media screen and (max-width: 780px) {
+  .vegetable-main-container {
+    position: relative;
+    top: 650px;
+  }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.title {
+  font-size: 60px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.seller-nav {
+  display: block;
+  width: fit-content;
+  height: 300px;
+}
+.seller-nav a {
+  margin: 0 20px 0 20px;
+  flex-wrap: wrap;
+}
+.seller-nav a:hover {
+  text-decoration: none;
+}
+span a {
+  margin-bottom: 50px;
+  color: red;
+}

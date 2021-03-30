@@ -1,0 +1,9 @@
+.main-listning-container {
+  position: relative;
+  top: 180px;
+  width: 100%;
+}
+@media screen and (max-width: 780px) {
+  position: relative;
+  top: 250px;
+}

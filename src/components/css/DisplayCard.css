@@ -1,0 +1,11 @@
+.itemCard {
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  /* max-width: 23% !; */
+}
+.vegetable-main-container .col-3 {
+  max-width: 23%;
+}

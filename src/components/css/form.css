@@ -1,0 +1,22 @@
+.add-item-form {
+  position: relative;
+  top: 200px;
+  left: 30%;
+  width: 40%;
+  padding: 20px;
+  background-color: #8ad9ec;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.btn-group {
+  width: 100%;
+}
+.btn-group Button {
+  width: 60%;
+}
+.select-catergary {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}

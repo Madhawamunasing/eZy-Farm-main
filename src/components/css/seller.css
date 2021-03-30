@@ -1,0 +1,24 @@
+.main-seller-container {
+  overflow-y: hidden;
+}
+.main-seller-container {
+  width: 100%;
+  display: flex;
+  background-color: bisque;
+  height: 780px;
+}
+.nav-container {
+  position: relative;
+  top: 160px;
+}
+.info-container {
+  position: relative;
+  top: 160px;
+  padding-left: 100px;
+}
+@media screen and (max-width: 780px) {
+  .main-seller-container {
+    position: relative;
+    top: 250px;
+  }
+}

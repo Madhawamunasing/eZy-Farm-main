@@ -1,0 +1,28 @@
+.footer {
+  background-color: #333;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+
+.footer span {
+  font-weight: 500;
+}
+
+.footer a {
+  color: rgb(255, 165, 0);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+@media screen and (max-width: 780px) {
+  .footer {
+    position: relative;
+    top: 750px !important;
+  }
+}
